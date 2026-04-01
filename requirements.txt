@@ -6,3 +6,5 @@ googletrans==4.0.0-rc1
 fastapi==0.110.0
 uvicorn==0.29.0
 jieba==0.42.1
+aliyun-python-sdk-core ==2.16.0
+aliyun-python-sdk-alimt == 3.2.0
