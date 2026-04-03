@@ -149,7 +149,7 @@ def crawl_ecommerce(url: str, link_type: str) -> Dict[str, Any]:
             }
     except Exception as e:
         print(f"⚠️ 电商爬取失败: {e}")
-        return  NULL
+        return  None
 def crawl_social(url: str, link_type: str) -> Dict[str, Any]:
     """抓取社媒内容（模拟数据，实际需适配各平台）"""
     # 这里可根据需要集成真实爬虫，本示例使用模拟数据
